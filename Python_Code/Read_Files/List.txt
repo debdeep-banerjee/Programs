@@ -1,0 +1,11 @@
+rm -f /Applications/Unity
+~/Library/Application Support/Unity
+~/Library/Caches/com.unity3d.*
+~/Library/Logs/Unity
+~/Library/Preferences/Unity
+~/Library/Preferences/com.unity3d.*
+~/Library/Unity
+~/Library/Preferences/com.OverTheEdge.BugReporter.plist
+~/Library/Preferences/dk.Otee.*
+/Library/Application Support/Unity
+/Library/Application Support/PACE Anti-Piracy

@@ -1,0 +1,16 @@
+import sys
+#Pass arguments for the file name to the script
+file_name=sys.argv[1]
+print("The file name is",file_name);
+file=open(file_name,'r')
+for lines in file:
+	#print("Line{}:",lines)
+	if "SARAVANAKUMAR" in lines:
+		print("Match found")
+		array=lines.split()
+		print("############################")
+		#for words in array:
+		#	print(words)
+		for index, word in enumerate(array):
+			if word=="SARAVANAKUMAR":
+				print("Index:", array[index+3].split()[3])
